@@ -27,6 +27,9 @@ if Input in noAnswers:
     while noTrue == "true":
      input("Rules TBC  \n(Press Enter When Ready)")
      Input = input("Would you like to read again?: ")
+     if Input not in valid_answers:
+         print("Your answer was not valid \nPlease try again")
+         Input = input("Type in your answer below and then press enter\n(Acceptable answers include y, yes, no, n): ")
      if Input in noAnswers:
          noTrue = "false"
 
