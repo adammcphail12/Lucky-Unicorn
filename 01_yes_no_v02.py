@@ -36,6 +36,9 @@ if Input in noAnswers:
 
 
 print("\nCoolio, Lets Get Started...")
+input("")
+
+# After this we start up the actual game
 
 
 
